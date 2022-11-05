@@ -1,0 +1,13 @@
+.Total {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 2px solid #000;
+}
+
+
+.Total span {
+    font-weight: bolder;
+    margin-top: 15px;
+    align-self: flex-end;
+}

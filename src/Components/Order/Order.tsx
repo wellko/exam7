@@ -1,6 +1,7 @@
 import {OrderObj} from "../../types";
 import React from "react";
 import Total from "../Total/Total";
+import './Order.css';
 
 interface OrderProps {
     props: OrderObj[]
@@ -40,10 +41,10 @@ const Order: React.FC<OrderProps> = (props) => {
 
 
     if (orderCheck.length === 0) {
-        return (<div> You didnt ordered anything yet</div>)
+        return (<div className='OrderInner'> You didnt ordered anything yet</div>)
     } else {
         return (
-            <div>{orderTrue}
+            <div className='OrderInner'>{orderTrue}
                 <Total count={price()}/>
             </div>
         )
