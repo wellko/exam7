@@ -1,0 +1,14 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.MenuBtn{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuBtn img {
+    height: 100%;
+}

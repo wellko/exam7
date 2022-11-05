@@ -1,5 +1,6 @@
 import React from "react";
 import {ButtonObj,} from "../../types";
+import './Menu.css';
 
 interface Buttonprops {
     props:ButtonObj[],
