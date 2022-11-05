@@ -12,11 +12,11 @@ import Order from "./Components/Order/Order";
 
 
 const MENU: ButtonObj[] = [
-  {name: 'Bottle of Juice' , image: Botled_juice, id:1 , desc:'Bottle' , price: 60},
-  {name: 'Fresh juice' , image: Fresh_juice, id:2 , desc:'Fresh' , price: 80},
-  {name: 'Milk' , image: Milk, id:3 , desc:'Fresh Milk' , price: 50},
-  {name: 'Smoothie' , image: Smoothie, id:4 , desc:'Smoothies are OK' , price: 120},
-  {name: 'Yogurt' , image: Yogurt, id:5 , desc:'yogurt' , price: 100},
+  {name: 'Bottle of Juice' , image: Botled_juice, id:1 , desc:'Bottle of delicious juice' , price: 60},
+  {name: 'Fresh juice' , image: Fresh_juice, id:2 , desc:'Cup of Fresh juice' , price: 80},
+  {name: 'Milk' , image: Milk, id:3 , desc:'Cup of Milk ' , price: 50},
+  {name: 'Smoothie' , image: Smoothie, id:4 , desc:'Smoothies from berries' , price: 120},
+  {name: 'Yogurt' , image: Yogurt, id:5 , desc:'Fresh and homemade yogurt' , price: 100},
   {name: 'VegSmoothie' , image: Veg_smoothie, id:6 , desc:'Vegetable smoothie ' , price: 70}
 ]
 
