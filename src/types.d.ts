@@ -8,3 +8,12 @@ export interface ButtonObj {
     price: number,
     add?: MouseEventHandler
 }
+
+
+export interface OrderObj {
+    name:string,
+    id: number,
+    price: number,
+    count: number,
+    del?: MouseEventHandler
+}
