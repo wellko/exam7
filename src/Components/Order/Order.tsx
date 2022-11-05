@@ -14,7 +14,7 @@ const Order: React.FC<OrderProps> = (props) => {
             <div className='orderFlex' key={item.id}>
                 <span>{item.name}</span>
                 <div>
-                    <span>x {item.count}</span>
+                    <span><b>x {item.count}  </b>    ........      {item.price} KGS</span>
                     <button className='deleteBtn' onClick={item.del}>X</button>
                 </div>
             </div>

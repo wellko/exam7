@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+    padding: 10px;
+    border: 3px solid #c5c5c5;
+    border-radius: 10px;
 }
 .MenuBtn{
     height: 80px;
