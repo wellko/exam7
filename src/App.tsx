@@ -17,7 +17,7 @@ const MENU: ButtonObj[] = [
   {name: 'Milk' , image: Milk, id:3 , desc:'Fresh Milk' , price: 50},
   {name: 'Smoothie' , image: Smoothie, id:4 , desc:'Smoothies are OK' , price: 120},
   {name: 'Yogurt' , image: Yogurt, id:5 , desc:'yogurt' , price: 100},
-  {name: 'Juice' , image: Veg_smoothie, id:5 , desc:'Vegetable smoothie ' , price: 70}
+  {name: 'VegSmoothie' , image: Veg_smoothie, id:6 , desc:'Vegetable smoothie ' , price: 70}
 ]
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
      {name: 'Milk' ,  count: 0, id:3 , price: 50},
      {name: 'Smoothie' ,  count: 0, id:4 , price: 120},
      {name: 'Yogurt' ,  count: 0, id:5 , price: 100},
-     {name: 'Juice' ,  count: 0, id:6 , price: 70},
+     {name: 'VegSmoothie' ,  count: 0, id:6 , price: 70},
    ]);
 
     const addOrder = (index:number) => {

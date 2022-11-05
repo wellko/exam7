@@ -1,4 +1,4 @@
-import React, {MouseEventHandler} from "react";
+import React from "react";
 import {ButtonObj,} from "../../types";
 
 interface Buttonprops {
@@ -6,8 +6,8 @@ interface Buttonprops {
 }
 
 
-
 const Menu:React.FC<Buttonprops>= (props) => {
+
    const menu = props.props.map((item, index) =>  (
         <button className='MenuBtn' onClick={item.add} key={index}><img alt='some pic' src={item.image}/> {item.desc}  <p>price : {item.price} KGS</p></button>
     ))
